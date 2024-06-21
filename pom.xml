@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.web_java_course</groupId>
-  <artifactId>WebJavaCourse</artifactId>
+  <artifactId>CountriesJsonAndExcel</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -31,5 +31,18 @@
       <artifactId>jackson-databind</artifactId>
       <version>${jackson.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.5</version>
+    </dependency>
+
   </dependencies>
 </project>
